@@ -18,7 +18,7 @@ module.exports = {
         ]
       },
       {
-        test: /.(jpe?g|png|jig|svg|icon)$/i,
+        test: /\.(jpe?g|png|jig|svg|icon)$/i,
         loader: 'url-loader',
         options: {
           limit: 2048,
